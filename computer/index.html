@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>computer</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".scroll").click(function (event) {
+                event.preventDefault();//取消事件的默认行为
+                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 900);
+            });
+        })
+    </script>
+    <script type="text/javascript">
+       addEventListener("load", function () {
+           setTimeout(hideURLbar, 0);
+       }, false);
+       function hideURLbar() {
+           window.scrollTo(0, 1);
+       }
+    </script>
+</head>
+<body>
+<!---->
+<div class="banner">
+    <div class="container">
+        <div class="header">
+            <div class="logo wow fadeInLeft" data-wow-delay="0.5s">
+                <a href="index.html"><img src="images/logo2.png" alt=""/></a>
+            </div>
+            <div class="top-menu">
+                <span class="menu"></span>
+                <ul>
+                    <li><a class="scroll" href="#home">HOME</a></li>
+                    <li><a class="scroll" href="#brief">BRIEF</a></li>
+                    <li><a class="scroll" href="#features">FEATURES</a></li>
+                    <li><a class="scroll" href="#pricing">PRICING</a></li>
+                    <li><a class="scroll" href="#screenshots">SCREENSHOTS</a></li>
+                    <li><a class="scroll" href="#testimonial">TESTIMONIAL</a></li>
+                    <li><a class="scroll" href="#contact">CONTACT</a></li>
+                </ul>
+                <script>
+                    $("span.menu").click(function () {
+                        $(".top-menu ul").slideToggle("slow");
+                    });
+                </script>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="banner-text wow fadeInUp" data-wow-delay="0.5s">
+            <h1>Get the Best <span>Solution</span> for Your <label>Business</label></h1>
+
+            <h2>Accelerator photo sharing business school drop out ramen hustle crush it revenue traction platforms.
+                Coworking viral landing page user base.</h2>
+        </div>
+        <div class="banner-form">
+            <form>
+                <input class="wow fadeInRight" data-wow-delay="0.5s" type="text" placeholder="Name" required/>
+                <input class="wow fadeInRight" data-wow-delay="0.5s" type="text" placeholder="E-mail" required/>
+                <input class="wow fadeInLeft" data-wow-delay="0.5s" type="text" placeholder="Phone" required/>
+                <input class="wow fadeInLeft" data-wow-delay="0.5s" type="submit" value="GET STARTED"/>
+            </form>
+            <div class="register">
+                <span></span>
+
+                <h3 class="wow bounceInRight" data-wow-delay="0.5s">Register Now and Get FREE Trail</h3>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!---->
+<div id="brief" class="brief">
+    <div class="container">
+        <div class="col-md-6 brief-grids wow fadeInLeft" data-wow-delay="0.5s">
+            <img src="images/browse.jpg" alt=""/>
+
+            <div class="brief-grid">
+                <div class="brief-grid-text">
+                    <h3>Explore the awesomeness</h3>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut.</p>
+                </div>
+                <div class="brief-grid-content1">
+                    <h3>Easy to Customize</h3>
+
+                    <p>Lorem lean startup ipsum product market fit customer development
+                        acquihire technical cofounder.</p>
+                </div>
+                <div class="brief-grid-content2">
+                    <h3>Quality design</h3>
+
+                    <p>Lorem lean startup ipsum product market fit customer development
+                        acquihire technical cofounder.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 brief-grids wow fadeInRight" data-wow-delay="0.5s">
+            <img src="images/browse2.jpg" alt=""/>
+
+            <div class="brief-grid">
+                <div class="brief-grid-text">
+                    <h3>Describe more about product</h3>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut.</p>
+                </div>
+                <div class="brief-grid-content1 good">
+                    <h3>Good in Performance</h3>
+
+                    <p>Lorem lean startup ipsum product market fit customer development
+                        acquihire technical cofounder.</p>
+                </div>
+                <div class="brief-grid-content2 video-bac">
+                    <h3>Video Background</h3>
+
+                    <p>Lorem lean startup ipsum product market fit customer development
+                        acquihire technical cofounder.</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!---->
+<div id="features" class="features">
+    <div class="container">
+        <div class="feature-text text-center">
+            <h3>Features</h3>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="features-section">
+            <div class="col-md-6 feature-grid text-center">
+                <i class="f1 wow bounceIn" data-wow-delay="0.5s"></i>
+
+                <h3>Responsive Design</h3>
+
+                <p>Lorem lean startup ipsum product market fit customer development acquihire technical cofounder. User
+                    engagement.
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="col-md-6 feature-grid text-center">
+                <i class="f2 wow bounceIn" data-wow-delay="0.5s"></i>
+
+                <h3>Built with Bootstarp</h3>
+
+                <p>Lorem lean startup ipsum product market fit customer development acquihire technical cofounder. User
+                    engagement.
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-6 feature-grid text-center">
+                <i class="f3 wow bounceIn" data-wow-delay="0.5s"></i>
+
+                <h3>Easy to Customize</h3>
+
+                <p>Lorem lean startup ipsum product market fit customer development acquihire technical cofounder. User
+                    engagement.
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="col-md-6 feature-grid text-center">
+                <i class="f4 wow bounceIn" data-wow-delay="0.5s"></i>
+
+                <h3>Valid Markup</h3>
+
+                <p>Lorem lean startup ipsum product market fit customer development acquihire technical cofounder. User
+                    engagement.
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!---->
+<div id="pricing" class="pricing">
+    <div class="container">
+        <div class="pricing-text text-center">
+            <h3>Pricing & Plans</h3>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="pricing-section">
+            <div class="col-md-4 pricing-grid wow fadeInUp" data-wow-delay="0.5s">
+                <div class="pricing-top text-center">
+                    <h3>Basic</h3>
+
+                    <p>From <span>$10</span> per month</p>
+                </div>
+                <div class="pricing-offer">
+                    <ul>
+                        <li class="whyt"><a href="#">50GB Disk Space </a></li>
+                        <li><a href="#">10 Domain Names</a></li>
+                        <li class="whyt"><a href="#">10 E-Mail Address </a></li>
+                        <li><a href="#">300GB Monthly Bandwidth </a></li>
+                        <li class="whyt"><a href="#">Fully Support</a></li>
+                    </ul>
+                    <div class="sign text-center">
+                        <a href="#">SIGN UP</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 pricing-grid wow fadeInDown" data-wow-delay="0.5s">
+                <div class="pricing-top text-center">
+                    <h3>Standard</h3>
+
+                    <p>From <span>$99</span> per month</p>
+                </div>
+                <div class="pricing-offer">
+                    <ul>
+                        <li class="whyt"><a href="#">150GB Disk Space </a></li>
+                        <li><a href="#">100 Domain Names</a></li>
+                        <li class="whyt"><a href="#">20 E-Mail Address </a></li>
+                        <li><a href="#">500GB Monthly Bandwidth </a></li>
+                        <li class="whyt"><a href="#">Fully Support</a></li>
+                    </ul>
+                    <div class="sign text-center">
+                        <a href="#">SIGN UP</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 pricing-grid wow fadeInUp" data-wow-delay="0.5s">
+                <div class="pricing-top text-center">
+                    <h3>Golden</h3>
+
+                    <p>From <span>$150</span> per month</p>
+                </div>
+                <div class="pricing-offer">
+                    <ul>
+                        <li class="whyt"><a href="#">1TB(Unlimited)</a></li>
+                        <li><a href="#">500 Domain Names</a></li>
+                        <li class="whyt"><a href="#">20 E-Mail Address </a></li>
+                        <li><a href="#">1TB Monthly Bandwidth </a></li>
+                        <li class="whyt"><a href="#">Fully Support</a></li>
+                    </ul>
+                    <div class="sign text-center">
+                        <a href="#">SIGN UP</a>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!---->
+<div class="video">
+    <div class="container">
+        <div class="video-text text-center">
+            <h3>Watch Video</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="video-play ">
+            <div class="playing">
+                <iframe  src="https://www.baidu.com" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+            <h4 class="wow fadeInLeft" data-wow-delay="0.5s"><a href="#" class="p1">Trusted by 100+ users</a></h4>
+            <h4 class="wow fadeInUp" data-wow-delay="0.5s"><a href="#" class="p2">Video Documentation</a></h4>
+            <h4 class="wow fadeInRight" data-wow-delay="0.5s"><a href="#" class="p3">24/7 Chat Support</a></h4>
+        </div>
+    </div>
+</div>
+<!---->
+<script type="text/javascript">
+    $(function () {
+        $().UItoTop({easingType: 'easeOutQuart'});
+    })
+</script>
+<a href="#to-top" id="toTop" style="display: block;">
+    <span id="toTopHover" style="opacity: 1;"> </span>
+</a>
+</body>
+</html>
